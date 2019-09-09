@@ -49,7 +49,7 @@ function obtenerDatosFormulario(cliente, porque, percepcion, mensaje)
 	
 	objetoFinal = 
 	{
-		cliente: "Mutualista Pichincha",
+		cliente: "Mutualista Pichincha 1",
 		porque: porque,
 		percepcion: percepcion,
 		mensaje: mensaje,
