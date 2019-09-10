@@ -1,0 +1,50 @@
+*{font-family: 'Roboto', sans-serif; font-weight: 100; color: #4d4d4d}
+body{padding: 0; margin: 0}
+h1, h2, h3{color: #00135b}
+h1 {text-transform: uppercase; font-size: 34px}
+.invisible{display: none;}
+img{width: 100%; display: block;}
+a{display: block; text-decoration: none}
+button, input[type="submit"] {border: #f7931e 2px solid; background-color: white; color: #f7931e; border-radius: 30px; display: block;
+	margin: 30px auto; font-size: 18px; padding: 10px 25px; cursor: pointer; transition: 300ms}
+button:hover, input[type="submit"]:hover{background-color: #f7931e; color: white} 
+.columnas {display: flex; flex-direction: row}
+.columna{max-width: 50%;}
+
+.cuerpo{width: 100%; background: url("../assets/fondo.png"); display: flex; z-index: 0; overflow: hidden;
+	min-height: calc(100vh - 227px)}
+.cuerpo .contenedor{max-width: 960px; background-color: white; border: #f7931e 3px solid; border-radius: 10px; 
+	text-align: center; margin: 10% auto 0 auto; transform: translateY(20px); padding-bottom: 50px}
+.logo {max-width: 500px; margin: 60px auto}
+
+.cuerpo p{max-width: 80%; margin: 10px auto; font-size: 18px}
+
+/*form*/
+.encuesta {margin: 0px 100px}
+.pregunta {margin: 100px auto}
+.opciones{display: flex; justify-content: space-around; max-width: 500px; margin: 0 auto}
+.opcion{max-width: 33%;}
+.opcion input, .opcion label{display: block; cursor: pointer;}
+input {display: block;}
+input[type="radio"]{background-color: red; padding: 50px; display: inline-block; cursor: pointer;}
+textarea{background-color: white; border: #00135b 2px solid; border-radius: 20px; padding: 20px; resize: none; font-size: 18px}
+
+.formulario h3 {font-size: 28px}
+.formulario p {color: #f7931e; font-size: 12px; }
+.formulario label {font-size: 24px }
+
+/*agradecimiento*/
+.agradecimiento h2 {font-weight: 700; font-size: 38px;	margin: 30px 160px}
+.agradecimiento .codigo {background-color: #00135b; color: white; font-weight: 700;
+	font-size: 24px; padding: 10px 15px; border-radius: 20px; max-width: 250px; margin: 30px auto;
+	margin-bottom: 2px;}
+.agradecimiento .expiracion {color: #f7931e; margin: 0 auto;}
+.agradecimiento h3 {font-weight: 700; font-size: 24px}
+
+
+/*footer*/
+footer{background-color: #00135b; overflow: hidden; z-index: 1;}
+footer .contenedor {max-width: 90%; margin: 60px auto}
+footer .columnas{justify-content: space-between; align-items: center}
+footer a{color: white; font-size: 18px; margin: 10px 0px; text-align: right}
+footer .logo{max-width: 300px; margin: 0;}
